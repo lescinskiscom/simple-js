@@ -94,6 +94,54 @@ a, p { line-height: 2.2rem; font-size: 1.8rem; }
 	text-decoration: none;
 }
 
+.rainbow .hero {
+	background: -webkit-linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 18s ease infinite;
+	-z-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+		animation: rainbow 18s ease infinite;
+}
+
+.rainbow .url {
+	color: #ff2400;
+	background-color: #ff2400;
+	background: -webkit-linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 18s ease infinite;
+	-z-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+		animation: rainbow 18s ease infinite;
+	text-decoration: none;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
 .bold { font-weight: bold; }
 
 .menu-icon {
