@@ -1,4 +1,4 @@
-* { margin-bottom: 0; margin-block-start: 0; margin-block-end: 0; }
+* { margin: 0; margin-block-start: 0; margin-block-end: 0; }
 html { font-size: 10px; }
 .container { margin: 0 auto; }
 .container.content { max-width: 66rem; }
@@ -28,11 +28,61 @@ html { font-size: 10px; }
 .m-3 { margin: 3.6rem; }
 .m-4 { margin: 7.2rem; }
 
-html { font-family: Calibri; }
+html { font-family: Arial; }
 
 /* a, p { padding-bottom: 1.4rem; } */
 
 h1 { font-size: 5.4rem; }
 h2 { font-size: 3.6rem; }
 
+h1.huge { font-size: 10rem; }
+
 a, p { line-height: 2.2rem; font-size: 1.8rem; }
+
+.bg-white {
+	background: #fafafa;
+}
+
+.text-white {
+	color: #fafafa;
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+
+.flex {
+	display: flex;
+}
+
+.flex.center {
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.d-flex.centerx {
+	align-items: center;
+}
+
+.d-flex.centery {
+	align-items: center;
+}
+
+.filly {
+	height: 100vh;
+}
+
+.default .hero {
+	background-color: #21D4FD;
+	background: -webkit-linear-gradient(135deg, #21D4FD 0%, #B721FF 100%);
+	background: linear-gradient(135deg, #21D4FD 0%, #B721FF 100%);
+}
+.default .url {
+	background-color: #09b5db;
+	background: -webkit-linear-gradient(135deg, #09b5db 0%, #B721FF 100%);
+	background: linear-gradient(135deg, #09b5db 0%, #B721FF 100%);
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #B721FF;
+}
+
+.bold { font-weight: bold; }
