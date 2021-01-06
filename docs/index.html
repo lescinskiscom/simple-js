@@ -6,6 +6,19 @@
 		<link rel="stylesheet" href="./assets/css/main.css?202101062023">
 	</head>
 	<body class="bg-white default">
+			<div id="menu" class="menu bg-dark text-white hidden">
+				asdasdas
+			</div>
+			<div id="menu-icon" class="menu-icon menu-icon--light hidden">
+				<div class="open">
+					<h1>×</h1>
+				</div>
+				<div class="closed">
+					<div class="menu-icon__bar"></div>		
+					<div class="menu-icon__bar"></div>		
+					<div class="menu-icon__bar"></div>		
+				</div>
+			</div>
       <section class="py-4 hero text-white flex center">
 				<h1 class="huge">Simple.js</h1>
 				<p>This website will contain documentation of simple.js modules.</p>
@@ -26,6 +39,9 @@
 					</div>
 				</div>
 			</section>
-
+		<script>
+			var menu = document.getElementById("menu");
+			var menuIcon = document.getElementById("menu-icon");
+		</script>
 	</body>
 </html>
